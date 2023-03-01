@@ -19,6 +19,11 @@ export default navbar([
     prefix: '',
     icon: '_qianduankaifa',
     children: [
+      {
+        text:'CSS',
+        icon:'css',
+        link:'/FE/CSS/CATALOG'
+      },
        {
         text:'HTML',
         icon:'HTML',

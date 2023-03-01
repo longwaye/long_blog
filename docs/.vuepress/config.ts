@@ -12,9 +12,9 @@ export default defineUserConfig({
   description: '一个专注于编程开发技术的个人知识库博客',
   plugins: [
     removeHtmlExtensionPlugin(),
-    registerComponentsPlugin({
-      componentsDir: path.resolve(__dirname, './components'),
-    }),
+    // registerComponentsPlugin({
+    //   componentsDir: path.resolve(__dirname, './components'),
+    // }),
     searchProPlugin({
       // 索引全部内容
       indexContent: true,
@@ -25,10 +25,10 @@ export default defineUserConfig({
   alias: {
     // 你可以在这里将别名定向到自己的组件
     // 比如这里我们将主题的主页组件改为用户 .vuepress/components 下的 HomePage.vue
-    '@theme-hope/components/PageFooter': path.resolve(
-      __dirname,
-      './components/MyFooter.vue'
-    ),
+    // '@theme-hope/components/PageFooter': path.resolve(
+    //   __dirname,
+    //   './components/MyFooter.vue'
+    // ),
     '@theme-hope/modules/blog/components/BlogHero': path.resolve(
       __dirname,
       './components/MyBlogHero.vue'
