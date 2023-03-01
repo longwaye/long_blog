@@ -1,0 +1,46 @@
+// place your custom styles herend
+
+
+.blog-home .page.blog {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+.search-pro-button,
+.blog-home .navbar {
+  background-color: transparent !important;
+}
+.site-name,
+.myfooter,
+.wl-power,
+.blog-page-wrapper,
+#nav-screen .container .blogger-info,
+.project-container .hero-info-wrapper,
+.blog-home .toggle-sidebar-button {
+  display: none !important;
+}
+.blog-home .myfooter {
+  display: flex !important;
+}
+// v-list logo
+.v-list-container .hero-info-wrapper img {
+  width: 150px !important;
+}
+.page-category-item,
+.page-author-item {
+  pointer-events: none;
+}
+
+.wl-editor,
+.wl-btn,
+.wl-empty,
+.wl-header input,
+.nav-item > .nav-link,
+.dropdown-title .title,
+.dropdown-item .nav-link,
+.wl-card .wl-content p,
+.wl-card .wl-meta > span,
+
+.project-container .feature-wrapper {
+  border-top: none !important;
+}
