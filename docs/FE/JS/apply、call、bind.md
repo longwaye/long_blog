@@ -10,7 +10,7 @@ tag:
 
 call()、 apply()、 bind() 都是用来重新定义 this 对象的指向
 
-```code
+```js
 fn.call(obj, 4,2)
 
 fn.apply(obj, [4, 2])
@@ -21,7 +21,7 @@ fn.bind(obj, [4, 2])()
 
 第一个参数都是 this 的指向对象
 
-```code
+```js
 var obj = {
    name: 'Nanchen'
   }
