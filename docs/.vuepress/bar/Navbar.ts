@@ -44,7 +44,13 @@ export default navbar([
       {
         text:'VUE',
         icon:'Vue',
-        link:'/FE/VUE/CATALOG'
+        link:'/FE/VUE/CATALOG',
+      }
+      ,
+      {
+        text:'REACT',
+        icon:'React',
+        link:'/FE/REACT/CATALOG'
       }
     ]
   },

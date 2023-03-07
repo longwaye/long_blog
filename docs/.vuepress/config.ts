@@ -12,9 +12,9 @@ export default defineUserConfig({
   description: '一个专注于编程开发技术的个人知识库博客',
   plugins: [
     removeHtmlExtensionPlugin(),
-    // registerComponentsPlugin({
-    //   componentsDir: path.resolve(__dirname, './components'),
-    // }),
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components'),
+    }),
     searchProPlugin({
       // 索引全部内容
       indexContent: true,

@@ -8,19 +8,16 @@
 -->
 <template>
   <div class="myfooter">
-    <div id="runtime">
-      本站勉强运行 <span class="color">{{ A }}</span
-      >天<span class="color">{{ B }}</span
-      >小时<span class="color">{{ C }}</span
-      >分<span class="color">{{ D }}</span
-      >秒
+    <div id="runtime" style="margin-right: 27px;">
+      本站勉强运行 <span class="color">{{ A }}</span>天<span class="color">{{ B }}</span>小时<span class="color">{{ C
+      }}</span>分<span class="color">{{ D }}</span>秒
     </div>
-    <div id="busuanzi">
+    <div id="busuanzi" style="margin-right: 27px;">
       本站总访问量
       <span id="busuanzi_value_site_pv"></span>
-      次 本站访客数 <span id="busuanzi_value_site_uv"></span> 人
+      次
     </div>
-    <div id="copyright">Copyright © 2022-present Fanhang Zhang</div>
+    <div id="copyright" style="margin-right: 27px;">Copyright © 2022-present WEIYI LONG</div>
   </div>
 </template>
 
@@ -30,13 +27,13 @@ import pure from 'busuanzi.pure.js'
 export default {
   // 监听,当路由发生变化的时候执行
   watch: {
-    $route(to, from) {
+    $route (to, from) {
       if (to.path != from.path) {
         pure.fetch()
       }
     },
   },
-  data() {
+  data () {
     return {
       A: '',
       B: '',
@@ -45,7 +42,7 @@ export default {
     }
   },
   methods: {
-    show_runtime() {
+    show_runtime () {
       window.setTimeout(this.show_runtime, 1000)
       let X, Y, T, M, a, b, c
       X = new Date('2/28/2023 00:00:00')
@@ -61,7 +58,7 @@ export default {
       this.D = Math.floor((c - this.C) * 60)
     },
   },
-  mounted() {
+  mounted () {
     this.show_runtime()
   },
 }
@@ -72,7 +69,6 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   font-size: 14px !important;
   margin: 10px 0;
   position: fixed;
@@ -80,12 +76,16 @@ export default {
   left: 50%;
   transform: translatex(-50%);
   color: #f1f1f1;
+  display: flex;
+  justify-content: flex-end;
 }
+
 #busuanzi_value_site_pv,
 #busuanzi_value_site_uv,
 #busuanzi {
   margin: 10px 0;
 }
+
 /* 移动端  */
 @media all and (max-width: 768px) {
   #busuanzi {

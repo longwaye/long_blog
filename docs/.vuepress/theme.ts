@@ -22,7 +22,7 @@ export default hopeTheme({
 	},
 	darkmode: 'toggle',
 	repoDisplay: false,
-	iconAssets: '//at.alicdn.com/t/c/font_3921887_yecqcdzar9.css',
+	iconAssets: '//at.alicdn.com/t/c/font_3921887_kmqp7fwcyth.css',
 	logo: '/logo.png',
 	pageInfo: [
 		'Author',
