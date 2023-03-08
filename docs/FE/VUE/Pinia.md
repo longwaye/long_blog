@@ -1,6 +1,6 @@
 ---
 title: 1. Pinia
-order: 3
+order: 4
 category:
   - VUE3
 tag:
