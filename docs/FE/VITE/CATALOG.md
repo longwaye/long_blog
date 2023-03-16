@@ -1,6 +1,6 @@
 ---
 title: 目录
-icon: Vite
+icon: vite
 category:
   - Vite
 tag:
