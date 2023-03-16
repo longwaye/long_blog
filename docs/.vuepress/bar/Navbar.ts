@@ -51,6 +51,11 @@ export default navbar([
         text:'REACT',
         icon:'React',
         link:'/FE/REACT/CATALOG'
+      } ,
+      {
+        text:'VITE',
+        icon:'Vite',
+        link:'/FE/VITE/CATALOG'
       }
     ]
   },
