@@ -20,3 +20,5 @@ comment: false
 3. ### [VIte环境变量配置](./VIte%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E9%85%8D%E7%BD%AE.md)
 
 4. ### [Vite中css配置](./Vite%E4%B8%ADcss%E9%85%8D%E7%BD%AE.md)
+
+5. ### [Vite性能优化](./Vite%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.md)

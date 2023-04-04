@@ -54,7 +54,7 @@ export default navbar([
       } ,
       {
         text:'VITE',
-        icon:'vite',
+        icon: 'Vue',
         link:'/FE/VITE/CATALOG'
       }
     ]
