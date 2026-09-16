@@ -8,7 +8,7 @@
 		"dev": "vuepress dev docs --port 8080",
 		"build": "vuepress build docs",
 		"clean-dev": "vuepress dev docs --clean-cache --port 8888",
-		"build": "[my-framework] build --output public"
+		"build": "long_blog build --output public"
 	},
 	"dependencies": {
 		"atropos": "^1.0.2",
